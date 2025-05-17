@@ -1,0 +1,13 @@
+{
+    "name": "dangquoctrung/pth_web",
+    "autoload": {
+        "psr-4": {
+            "Dangquoctrung\\PthWeb\\": "src/",
+            "App\\Models\\": "App/Models/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^12.13",
+        "nesbot/carbon": "^3.9"
+    }
+}
